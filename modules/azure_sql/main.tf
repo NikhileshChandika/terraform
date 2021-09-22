@@ -1,5 +1,5 @@
 
-# Create a resource group
+# Create a resource group 
 resource "azurerm_resource_group" "azure_sql-rg" {
   name     = "${var.env}-${var.project_code_name}-rg"
   location = var.location
